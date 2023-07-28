@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2), -1px -1px 8px rgba(0,0,0,0.2);
+    border: 1px solid #bdc3c7;
+    overflow: hidden;
+}
+.container .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container .header .heading h2{
+    color: #068de0;
+}
+.container .header .search .btn{
+    padding: 5px 25px;
+    outline: none;
+    background-color: #068de0;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #068de0;
+}
+.container .header .search .btn:hover{
+    background-color: #ffff;
+    color: black;
+}
+.container .header .search{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header .search input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 0;
+    transition: width 0.3s ease;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container .header .search input.active {
+    width: 200px;
+    border-bottom: 1px solid gray;
+  }
+table{
+    width: 900px;
+    height: 400px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr{
+    cursor: pointer;
+}
+tr:hover{
+    background-color:rgba(128, 128, 128, 0.292);
+}
+#header{
+    color: #ffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #2a93d5;
+}
+@media screen and (max-width:790px){
+    table{
+        width: auto;
+        height: 500px;
+        /* overflow-x: auto; */
+    }
+} 
