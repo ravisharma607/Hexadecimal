@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ravisharma607/hexadecimal/static/css/main.73987bef.css",
+    "main.js": "/ravisharma607/hexadecimal/static/js/main.5e93e102.js",
+    "index.html": "/ravisharma607/hexadecimal/index.html",
+    "main.73987bef.css.map": "/ravisharma607/hexadecimal/static/css/main.73987bef.css.map",
+    "main.5e93e102.js.map": "/ravisharma607/hexadecimal/static/js/main.5e93e102.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73987bef.css",
+    "static/js/main.5e93e102.js"
+  ]
+}
